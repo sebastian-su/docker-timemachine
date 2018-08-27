@@ -6,4 +6,4 @@ Careful: since Samba 4.8.x is quite new (but supports the features time machine 
 
 start via:
 
-docker run -it -d -v /hostdirectory:/data -p 445:445/tcp -p 139:139/tcp -p 137:137/udp -p 138:138/udp sebastiansu/docker-timemachine
+`docker run -it -d -v /hostdirectory:/data -p 445:445/tcp -p 139:139/tcp -p 137:137/udp -p 138:138/udp sebastiansu/docker-timemachine`
